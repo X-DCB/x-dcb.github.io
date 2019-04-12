@@ -1,0 +1,8 @@
+{
+    "version": 2,
+    "name": "webreq01x",
+    "builds": [
+        { "src": "*.php", "use": "@now/php" },
+        { "src": "!*.php", "use": "@now/static" }
+    ]
+}
